@@ -2,6 +2,14 @@
 section{
   color: rgba(77, 79, 98, 1);
   text-align: center ;
+  
+}
+.box{
+  cursor: pointer;
+  transition: transform 0.3s ease; 
+}
+.box:hover{   
+  transform: scale(1.1); 
 }
 .title{
   font-size: 2.4rem;
